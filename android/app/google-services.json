@@ -1,0 +1,274 @@
+{
+  "project_info": {
+    "project_number": "961414409348",
+    "project_id": "databasegg-6925d",
+    "storage_bucket": "databasegg-6925d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961414409348:android:76a5d6bbccdc389dc0a6d1",
+        "android_client_info": {
+          "package_name": "com.example.gg_proyect_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961414409348-09jtji1f7f8cl31coo571fmm29uv7nrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gg_proyect_final",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL5E3r5ibd5y2KBmODdpnMzPZghH1WBik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961414409348-460jkop2qba09k90funnojvqrfiq46p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ggproyectClon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961414409348:android:7f622e4ab49a33a1c0a6d1",
+        "android_client_info": {
+          "package_name": "com.example.ggproyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961414409348-iitvf1bjgo5p9b3bnov8ce9esevhim8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ggproyect",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL5E3r5ibd5y2KBmODdpnMzPZghH1WBik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961414409348-460jkop2qba09k90funnojvqrfiq46p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ggproyectClon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961414409348:android:3aad7d3499cbb3d8c0a6d1",
+        "android_client_info": {
+          "package_name": "com.example.gurugame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961414409348-7egbvqgkufjuhh2ctenvrgkqtlaj7fc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gurugame",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL5E3r5ibd5y2KBmODdpnMzPZghH1WBik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961414409348-460jkop2qba09k90funnojvqrfiq46p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ggproyectClon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961414409348:android:f7e92103ece758dcc0a6d1",
+        "android_client_info": {
+          "package_name": "com.example.gurugame_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961414409348-6r0kk6l9810qd5jigoko3jq1pdh773vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gurugame_final",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL5E3r5ibd5y2KBmODdpnMzPZghH1WBik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961414409348-460jkop2qba09k90funnojvqrfiq46p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ggproyectClon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961414409348:android:6b9f0399ff36a6f0c0a6d1",
+        "android_client_info": {
+          "package_name": "com.mycompany.ggproyect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961414409348-g1tlijfiound42987hrajjtkdnqglf5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.ggproyect",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL5E3r5ibd5y2KBmODdpnMzPZghH1WBik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961414409348-460jkop2qba09k90funnojvqrfiq46p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ggproyectClon"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961414409348:android:bd5cc6a7527baf6bc0a6d1",
+        "android_client_info": {
+          "package_name": "com.mycompany.ggproyectClon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961414409348-rm4fj1g0khoqbkmlsdbfroo88vov3toe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.ggproyectClon",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL5E3r5ibd5y2KBmODdpnMzPZghH1WBik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961414409348-d2voct8ussf0t91aoepn23oc160ult9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961414409348-460jkop2qba09k90funnojvqrfiq46p7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ggproyectClon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,4 @@
+import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -251,30 +252,18 @@ class _LoginWidgetState extends State<LoginWidget> {
                     ),
                     FFButtonWidget(
                       onPressed: () async {
-                        context.pushNamed(
-                          'home',
-                          queryParams: {
-                            'userId': serializeParam(
-                              '',
-                              ParamType.String,
-                            ),
-                            'name': serializeParam(
-                              '',
-                              ParamType.String,
-                            ),
-                            'admin': serializeParam(
-                              false,
-                              ParamType.bool,
-                            ),
-                          }.withoutNulls,
-                          extra: <String, dynamic>{
-                            kTransitionInfoKey: TransitionInfo(
-                              hasTransition: true,
-                              transitionType: PageTransitionType.rightToLeft,
-                              duration: Duration(milliseconds: 500),
-                            ),
-                          },
+                        GoRouter.of(context).prepareAuthEvent();
+
+                        final user = await authManager.signInWithEmail(
+                          context,
+                          _model.correElectronicoController.text,
+                          _model.passwordController.text,
                         );
+                        if (user == null) {
+                          return;
+                        }
+
+                        context.goNamedAuth('home', context.mounted);
                       },
                       text: 'Iniciar Sesion',
                       options: FFButtonOptions(

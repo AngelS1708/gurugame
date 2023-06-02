@@ -1,3 +1,5 @@
+import '/auth/firebase_auth/auth_util.dart';
+import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -464,30 +466,41 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                     ),
                     FFButtonWidget(
                       onPressed: () async {
-                        context.pushNamed(
-                          'home',
-                          queryParams: {
-                            'userId': serializeParam(
-                              '',
-                              ParamType.String,
+                        GoRouter.of(context).prepareAuthEvent();
+                        if (_model.passwordController.text !=
+                            _model.confirmPasswordController.text) {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text(
+                                'Passwords don\'t match!',
+                              ),
                             ),
-                            'name': serializeParam(
-                              '',
-                              ParamType.String,
-                            ),
-                            'admin': serializeParam(
-                              false,
-                              ParamType.bool,
-                            ),
-                          }.withoutNulls,
-                          extra: <String, dynamic>{
-                            kTransitionInfoKey: TransitionInfo(
-                              hasTransition: true,
-                              transitionType: PageTransitionType.leftToRight,
-                              duration: Duration(milliseconds: 500),
-                            ),
-                          },
+                          );
+                          return;
+                        }
+
+                        final user = await authManager.createAccountWithEmail(
+                          context,
+                          _model.emailAddressController.text,
+                          _model.passwordController.text,
                         );
+                        if (user == null) {
+                          return;
+                        }
+
+                        final usersCreateData = createUsersRecordData(
+                          displayName: _model.userNameController.text,
+                          admin: false,
+                          descripcion:
+                              'Aqui puedes colocar una descripcion sobre ti!',
+                          photoUrl:
+                              'https://files.cults3d.com/uploaders/16527374/illustration-file/707bf1d6-ae50-45c0-8e2f-98c3b49af524/kirbo_001.jpg',
+                        );
+                        await UsersRecord.collection
+                            .doc(user.uid)
+                            .update(usersCreateData);
+
+                        context.goNamedAuth('home', context.mounted);
                       },
                       text: 'Crear Cuenta',
                       options: FFButtonOptions(
@@ -528,7 +541,17 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                           ),
                           FFButtonWidget(
                             onPressed: () async {
-                              context.pushNamed('Login');
+                              context.pushNamed(
+                                'Login',
+                                extra: <String, dynamic>{
+                                  kTransitionInfoKey: TransitionInfo(
+                                    hasTransition: true,
+                                    transitionType:
+                                        PageTransitionType.leftToRight,
+                                    duration: Duration(milliseconds: 500),
+                                  ),
+                                },
+                              );
                             },
                             text: 'Iniciar Sesión',
                             options: FFButtonOptions(
